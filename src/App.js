@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const CLIENT_ID = '689299467388-j3qc9vn4j3m5hmje3u6s56qf2534e7bq.apps.googleusercontent.com';
-const BACKEND_URL = 'https://your-backend.onrender.com';
+const BACKEND_URL = 'https://google-login-backend-rdwf.onrender.com';
 
 export default function App() {
   const [user, setUser] = useState(null);
